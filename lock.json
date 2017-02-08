@@ -1,4 +1,108 @@
 {
-    "memo": "",
-    "projects": []
+    "memo": "36ddec823bd088049cbd18a08fd6a9d187231d45b77438cdbc3846416af4b946",
+    "projects": [
+        {
+            "name": "github.com/armon/go-metrics",
+            "branch": "master",
+            "revision": "93f237eba9b0602f3e73710416558854a81d9337",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/dimfeld/httppath",
+            "branch": "master",
+            "revision": "c8e499c3ef3c3e272ed8bdcc1ccf39f73c88debc",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/dimfeld/httptreemux",
+            "version": "3.7.0",
+            "revision": "a12c89c2c0f23f880dfd74af4832a23bae6e837a",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/goadesign/goa",
+            "version": "v1.1.0",
+            "revision": "8f0fdca409904318050f9e03579c3878f8928826",
+            "packages": [
+                ".",
+                "client",
+                "design",
+                "design/apidsl",
+                "goatest",
+                "middleware",
+                "uuid"
+            ]
+        },
+        {
+            "name": "github.com/inconshreveable/mousetrap",
+            "branch": "master",
+            "revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/manveru/faker",
+            "branch": "master",
+            "revision": "717f7cf83fb78669bfab612749c2e8ff63d5be11",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/pkg/errors",
+            "version": "v0.8.0",
+            "revision": "3866ebc348c54054262feae422da428fe6cf147d",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/satori/go.uuid",
+            "version": "v1.1.0",
+            "revision": "879c5887cd475cd7864858769793b2ceb0d44feb",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/spf13/cobra",
+            "branch": "master",
+            "revision": "99600f6874c95daab762dc2373dc3ee1f6a48575",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/spf13/pflag",
+            "branch": "master",
+            "revision": "9ff6c6923cfffbcd502984b8e0c80539a94968b7",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/zach-klippenstein/goregen",
+            "branch": "master",
+            "revision": "795b5e3961ea1912fde60af417ad85e86acc0d6a",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "branch": "master",
+            "revision": "236b8f043b920452504e263bc21d354427127473",
+            "packages": [
+                "context",
+                "websocket"
+            ]
+        }
+    ]
 }

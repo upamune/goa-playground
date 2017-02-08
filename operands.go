@@ -1,6 +1,8 @@
 package main
 
 import (
+	"strconv"
+
 	"github.com/goadesign/goa"
 	"github.com/upamune/goa-playground/app"
 )
@@ -20,7 +22,19 @@ func (c *OperandsController) Add(ctx *app.AddOperandsContext) error {
 	// OperandsController_Add: start_implement
 
 	// Put your logic here
+	sum := ctx.Left + ctx.Right
 
-	// OperandsController_Add: end_implement
-	return nil
+	// operandscontroller_add: end_implement
+	return ctx.OK([]byte(strconv.Itoa(sum)))
+}
+
+// Sub runs the sub action.
+func (c *OperandsController) Sub(ctx *app.SubOperandsContext) error {
+	// OperandsController_Sub: start_implement
+
+	// Put your logic here
+	sub := ctx.Left - ctx.Right
+
+	// operandscontroller_add: end_implement
+	return ctx.OK([]byte(strconv.Itoa(sub)))
 }

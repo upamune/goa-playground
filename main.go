@@ -15,6 +15,7 @@ func main() {
 	// Mount middleware
 	service.Use(middleware.RequestID())
 	service.Use(middleware.LogRequest(true))
+	service.Use(middleware.LogResponse())
 	service.Use(middleware.ErrorHandler(service, true))
 	service.Use(middleware.Recover())
 
